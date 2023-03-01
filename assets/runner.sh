@@ -191,7 +191,7 @@ conda update conda -y
 echo "Checking if AlignEM-SWiFT exists in $WORK..."
 if [ ! -d "$WORK/swift-ir" ]; then
   echo "AlignEM-SWiFT not found in $WORK..."
-  git clone https://github.com/SynapseWeb/pyReconstruct
+  git clone https://github.com/mcellteam/swift-ir.git
 fi
 
 echo "Changing directory to swift-ir..."
