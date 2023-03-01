@@ -1,0 +1,61 @@
+{
+  "checkpointable": false,
+  "name": "{{ app.name }}",
+  "executionSystem": "tacc.ls6.tiffhuff",
+  "executionType": "HPC",
+  "deploymentPath": "{{ username }}/apps/{{ app.name }}-{{ app.version }}",
+  "deploymentSystem": "tacc.work.tiffhuff",
+  "helpURI": "https://github.com/mcellteam/swift-ir",
+  "label": "{{ app.label }}",
+  "shortDescription": "{{ app.description }}",
+  "longDescription": "Run the latest interactive session alignEM Swift-ir with Neuroglancer interface on Lonestar6. Be sure to exit the application when you are finished with the session or any files saved will not be archived with the job.",
+  "modules": [
+  ],
+  "ontology": [],
+  "parallelism": "SERIAL",
+  "tags": ["DCV"],
+  "templatePath": "runner.sh",
+  "testPath": "tester.sh",
+  "version": "{{ app.version }}",
+  "defaultMaxRunTime": "02:00:00",
+  "inputs": [],
+  "parameters": [
+    {
+      "id": "CONTAINER_IMAGE",
+      "value": {
+        "default": "{{ docker.namespace }}/{{ docker.repo }}:{{ docker.tag }}",
+        "type": "string",
+        "visible": false,
+        "required": true,
+        "order": 1000
+      }
+    },
+    {
+      "id": "_webhook_base_url",
+      "semantics": {
+          "minCardinality": 1,
+          "ontology": [
+              "xs:string"
+          ],
+          "maxCardinality": 1
+      },
+      "value": {
+          "required": true,
+          "enquote": false,
+          "default": null,
+          "visible": true,
+          "validator": null,
+          "type": "string",
+          "order": 1
+      },
+      "details": {
+          "argument": null,
+          "repeatArgument": false,
+          "description": null,
+          "showArgument": false,
+          "label": "Base portal webhook url."
+      }
+  }
+  ],
+  "outputs": []
+}
