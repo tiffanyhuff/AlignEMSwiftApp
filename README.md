@@ -1,7 +1,7 @@
 Description:
 -----------------------
 
-This application will allow a user to submit a job on the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) [Lonestar6 Supercomputer](https://www.tacc.utexas.edu/systems/lonestar6) to utilize [AlignEM-SWiFT](https://github.com/SynapseWeb/pyReconstruct#pyreconstruct); the Python functionality of the 3D image reconstruction software [RECONSTRUCT](https://synapseweb.clm.utexas.edu/software-0).
+This application will allow a user to submit a job on the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) [Lonestar6 Supercomputer](https://www.tacc.utexas.edu/systems/lonestar6) to utilize [AlignEM-SWiFT](https://wikis.utexas.edu/display/khlab/tSEM+image+alignment+using+AlignEM-SWiFT); an implementation of SWiFT-IR (Signal Whitening Fourier Transform Image Registration), developed by Art Wetzel, Tom Bartol, and Bob Kuczewski.
 
 Running the Application:
 -----------------------
