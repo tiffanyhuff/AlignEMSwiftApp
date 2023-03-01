@@ -7,7 +7,7 @@ Running the Application:
 -----------------------
 To run the application, the user must submit a job using the [3D Electron Microscopy (3Dem)](https://3dem.org/) web-based research platform. Once running, a virtual DCV session will be initialized for the user, and a button on the History/Jobs page will appear allowing the user to open the session. Additionally, a document titled 'alignem_dcvserver.txt' will be created in the user's work folder with connection instructions. Once connected, the AlignEM-SWiFT software will begin running.
 
-For instructions on using AlignEM-SWiFT, please see the [documentation](https://github.com/mcellteam/swift-ir/blob/development/docs/user/README.md). Additional information can be found [here](https://wikis.utexas.edu/display/khlab/tSEM+image+alignment+using+AlignEM-SWiFT).
+For instructions on using AlignEM-SWiFT, please see the [documentation](https://github.com/mcellteam/swift-ir/blob/development_ng/docs/tacc/README.md). Additional information can be found [here](https://wikis.utexas.edu/display/khlab/tSEM+image+alignment+using+AlignEM-SWiFT).
 
  Acknowledgements:
 ---------------------
