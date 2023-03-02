@@ -14,4 +14,4 @@ For instructions on using AlignEM-SWiFT, please see the [documentation](https://
 
 AlignEM-SWiFT was originally written by Patrick Parker in Aug. 2020, with contributions from Mahija Ginjuaplli, Dusten Hubbard, Masa Kuwajima, and Edwin Vargas-Garzon.
 
-[Arthur W. Wetzel, Jennifer Bakal, Markus Dittrich, David G. C. Hildebrand, Josh L. Morgan, Jeff W. Lichtman (2016) Registering large volume serial-section electron microscopy image sets for neural circuit reconstruction using FFT signal whitening.]{https://arxiv.org/abs/1612.04787}
+[Arthur W. Wetzel, Jennifer Bakal, Markus Dittrich, David G. C. Hildebrand, Josh L. Morgan, Jeff W. Lichtman (2016) Registering large volume serial-section electron microscopy image sets for neural circuit reconstruction using FFT signal whitening.](https://arxiv.org/abs/1612.04787)
