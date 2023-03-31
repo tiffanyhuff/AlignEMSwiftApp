@@ -5,10 +5,10 @@
   "executionType": "HPC",
   "deploymentPath": "{{ username }}/apps/{{ app.name }}-{{ app.version }}",
   "deploymentSystem": "tacc.work.tiffhuff",
-  "helpURI": "https://github.com/mcellteam/swift-ir",
+  "helpURI": "https://github.com/mcellteam/swift-ir/tree/development_ng",
   "label": "{{ app.label }}",
   "shortDescription": "{{ app.description }}",
-  "longDescription": "Run the latest interactive session alignEM Swift-ir with Neuroglancer interface on Lonestar6. Be sure to exit the application when you are finished with the session or any files saved will not be archived with the job.",
+  "longDescription": "Run the latest interactive session AlignEM SWiFT-IR with Neuroglancer interface on Lonestar6. Be sure to exit the application when you are finished with the session or any files saved will not be archived with the job.",
   "modules": [
   ],
   "ontology": [],
